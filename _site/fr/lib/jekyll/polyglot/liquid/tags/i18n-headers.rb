@@ -11,12 +11,7 @@ module Jekyll
 
         def render(context)
           site = context.registers[:site]
-          puts '-------'
-          puts @url
-          puts site.data['url']
-          puts site.url
-          puts '-------'
-          @url.empty? ? @url = site.data['url'] : false
+          @url.empty? ? @url = context.environments.first['site']['url'] : false
           permalink = context.registers[:page]['permalink']
           i18n = "<meta http-equiv=\"Content-Language\" content=\"#{site.active_lang}\">"
           i18n += "<link rel=\"alternate\" i18n=\"#{site.default_lang}\""\
