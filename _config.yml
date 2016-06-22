@@ -12,7 +12,7 @@ gems: [jekyll-paginate, jekyll-gist, jekyll-polyglot]
 permalink: pretty
 
 include: ['_pages']
-exclude: ['LICENSE.md', 'README.md', 'publi.sh']
+exclude: ['LICENSE.md', 'README.md', 'publi.sh', 'Gemfile.lock']
 # Setup
 title:            Polyglot
 tagline:          'Straightforward I18n for Jekyll Blogs'
