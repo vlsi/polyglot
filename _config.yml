@@ -23,7 +23,7 @@ description:
   en: A i18n support plugin for <a href="http://jekyllrb.com" target="_blank">Jekyll</a> that makes multi-language support fast and intuitive, for blogs big and small. Made by <a href="https://github.com/untra" target="_blank">@untra</a>.
 
 url:              https://untra.github.io/polyglot
-baseurl:          /polyglot
+baseurl:          /
 
 author:
   name:           'Samuel Volin'
