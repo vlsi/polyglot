@@ -6,10 +6,10 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta http-equiv="content-type" content="text/html; charset=utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1">
-  <meta http-equiv="Content-Language" content="en"><link rel="alternate" i18n="en" href="/" />
-<link rel="alternate" i18n="es" href="/es/" />
-<link rel="alternate" i18n="de" href="/de/" />
-<link rel="alternate" i18n="fr" href="/fr/" />
+  <meta http-equiv="Content-Language" content="de"><link rel="alternate" i18n="en" href="/de/" />
+<link rel="alternate" i18n="es" href="/de/es/" />
+<link rel="alternate" i18n="de" href="/de/de/" />
+<link rel="alternate" i18n="fr" href="/de/fr/" />
 
   <title>
     
@@ -29,7 +29,7 @@
                                  <link rel="shortcut icon" href="/public/favicon.ico">
 
   <!-- RSS -->
-  <link rel="alternate" type="application/rss+xml" title="RSS" href="/atom.xml">
+  <link rel="alternate" type="application/rss+xml" title="RSS" href="/de/atom.xml">
 </head>
 
 
@@ -39,18 +39,18 @@
 <div class="sidebar">
   <div class="container sidebar-sticky">
     <div class="sidebar-about">
-      <p class="speech">Hello!</p>
+      <p class="speech">Hallo!</p>
     </br>
       <h1>
         <a href="">
           Polyglot
         </a>
       </h1>
-      <p class="lead">A i18n support plugin for <a href="http://jekyllrb.com" target="_blank">Jekyll</a> that makes multi-language support fast and intuitive, for blogs big and small. Made by <a href="https://github.com/untra" target="_blank">@untra</a>.</p>
+      <p class="lead">Ein sprachunterstützung plugin für <a href="http://jekyllrb.com" target="_blank">Jekyll</a>, die Unterstützung der Internationalisierung schnell und intuitiv macht, für Blogs groß und klein. Hergestellt von <a href="https://github.com/untra" target="_blank">@untra</a>.</p>
     </div>
 
     <nav class="sidebar-nav">
-      <a class="sidebar-nav-item" href="/">Home</a>
+      <a class="sidebar-nav-item" href="/de/">Home</a>
 
       
       
@@ -58,7 +58,7 @@
         
         
           
-            <a class="sidebar-nav-item" href="/about/">About</a>
+            <a class="sidebar-nav-item" href="/de/about/">About</a>
           
           
         
@@ -80,7 +80,7 @@
         
         
           
-            <a class="sidebar-nav-item" href="/sample/">Sample data</a>
+            <a class="sidebar-nav-item" href="/de/sample/">Sample data</a>
           
           
         
@@ -88,7 +88,7 @@
         
         
           
-            <a class="sidebar-nav-item" href="/seo/">SEO Recipes</a>
+            <a class="sidebar-nav-item" href="/de/seo/">SEO Recipes</a>
           
           
         
@@ -103,11 +103,11 @@
     <p>&copy; 2016. All rights reserved.</p>
 <p>
   
-<a style="font-weight: bold;" href=" / ">en</a> |
+<a  href=" / ">en</a> |
   
 <a  href=" /es/ ">es</a> |
   
-<a  href=" /de/ ">de</a> |
+<a style="font-weight: bold;" href=" /de/ ">de</a> |
   
 <a  href=" /fr/ ">fr</a> |
   
@@ -121,24 +121,24 @@
   
   <div class="post">
     <h1 class="post-title">
-      <a href="/2016/04/20/Polyglot-1.2.0/">
+      <a href="/de/2016/04/20/Polyglot-1.2.0/">
         Polyglot 1.2.0
       </a>
     </h1>
 
     <span class="post-date">20 Apr 2016</span>
 
-    <p>A new version of Polyglot has been released! Give it a try!</p>
+    <p>Eine neue Version von Polyglot wurde veröffentlicht! Versuche es!</p>
 
 <figure class="highlight"><pre><code class="language-yaml" data-lang="yaml"><span class="s">gem install jekyll-polyglot</span></code></pre></figure>
 
-<p>and list <code>jekyll-polyglot</code> among your listed gems in your <code>_config.yml</code></p>
+<p>und eine Liste <code>jekyll-polyglot</code> unter Ihren aufgelisteten Edelsteine ​​in Ihrer<code>_config.yml</code></p>
 
-<p>It involves mostly groundwork to prepare for new features and better multilingual content management. It does have a new feature:</p>
+<p>Es geht vor allem Grundstein für neue Funktionen und eine bessere Verwaltung mehrsprachiger Inhalte vorzubereiten. Er hat eine neue Funktion:</p>
 
 <h2>{% I18n_Headers %}</h2>
 
-<p>Put this tag with the <a href="https://github.com/untra/polyglot/blob/site/_includes/head.html#L6">url of your website</a> in your <code>head.html</code> includes file to get the maximum SEO provided by having a multilingual website. It&#39;s the same as the following liquid code:</p>
+<p>Setzen Sie diesen Tag mit der <a href="https://github.com/untra/polyglot/blob/site/_includes/head.html#L6">url Ihrer Website</a> in Ihrem <code>head.html</code> enthält Datei die maximale SEO zu erhalten, die von mit einer mehrsprachigen Website. Es ist die gleiche wie die folgende Flüssigkeit Code:</p>
 
 <figure class="highlight"><pre><code class="language-html" data-lang="html"><span class="nt">&lt;meta</span> <span class="na">http-equiv=</span><span class="s">"Content-Language"</span> <span class="na">content=</span><span class="s">"{{site.active_lang}}"</span><span class="nt">&gt;</span>
 <span class="nt">&lt;link</span> <span class="na">rel=</span><span class="s">"alternate"</span>
@@ -153,13 +153,13 @@
     <span class="na">href=</span><span class="s">"http://yoursite.com/{{lang}}{{page.permalink}}"</span> <span class="nt">/&gt;</span>
 {% endfor %}</code></pre></figure>
 
-<p>In your header, but faster and cleaner! For more information, see <a href="/seo">the SEO page</a></p>
+<p>In der Kopfzeile, aber schneller und sauberer! Weitere Informationen finden Sie unter <a href="/de/seo">die SEO-Seite</a></p>
 
   </div>
   
   <div class="post">
     <h1 class="post-title">
-      <a href="/2015/11/14/polyglot-version-1-1/">
+      <a href="/de/2015/11/14/polyglot-version-1-1/">
         Polyglot Version 1.1.0
       </a>
     </h1>
@@ -174,36 +174,36 @@
   
   <div class="post">
     <h1 class="post-title">
-      <a href="/2015/09/19/presenting-polyglot/">
-        Presenting Polyglot
+      <a href="/de/2015/09/19/presenting-polyglot/">
+        Ankündigung Polyglot
       </a>
     </h1>
 
     <span class="post-date">19 Sep 2015</span>
 
-    <p>After months of work and refinement, I am proud to present <strong>Polyglot</strong>: a i18n plugin for <a href="http://jekyllrb.com">Jekyll</a> sites that <em>need</em> to cater their content to multiple languages and audiences.</p>
+    <p>Nach monatelanger Arbeit und Raffinesse, ich bin stolz darauf, <strong>Polyglot</strong> präsentieren: eine i18n-Plugin für <a href="http://jekyllrb.com">Jekyll</a> Websites, die <em>Notwendigkeit</em>, ihre Inhalte in mehrere Sprachen und Zielgruppen gerecht zu werden.</p>
 
-<h3>Features</h3>
+<h3>Eigenschaften</h3>
 
-<p>While there are other multi-language plugins for Jekyll, Polyglot is special. Polyglot takes care of the typical cruftwork normally left to developers to manage (such as wrangling urls and ensuring consistent sitemaps) while providing efficient and simple tools Jekyll developers can utilize into SEO and fast-tracked content aggregation.</p>
+<p>Zwar gibt es andere Multi-Language-Plugins für Jekyll ist Polyglot Besonderes. Polyglot kümmert sich um den typischen Unsinn in der Regel an die Entwickler verlassen zu verwalten (wie Gerangel URLs und konsistente Sitemaps) und bietet effiziente und einfache Werkzeuge Jekyll-Entwickler können in SEO und Eilverfahren Content-Aggregation zu nutzen.</p>
 
-<h2>Relativized Links</h2>
+<h2>Relativiert URLs</h2>
 
-<p>In the past, a multi-language static site or blog had to keep delicate track of what language each relative link the site was serving. It was all too easy for a developer to stumble, and foreign language visitors would quickly get lost in untranslated content.</p>
+<p>In der Vergangenheit hatte eine mehrsprachige statische Website oder ein Blog, um empfindliche verfolgen, was die Sprache jedes relativen Link wurde die Website dient zu halten. Es war viel zu einfach für einen Entwickler zu stolpern, und Fremdsprachen Besucher würde schnell in nicht übersetzten Inhalte verloren gehen.</p>
 
-<p>Polyglot automatically relativizes the urls for each language you want your site to build for. This allows website visitors to stay isolated on one language while browsing your website.</p>
+<p>Polyglot relativiert automatisch die URLs für jede Sprache, die Sie Ihre Website, um für die bauen wollen. Dies ermöglicht es Website-Besucher zu isoliert auf eine Sprache zu bleiben, während Durchsuchen Ihrer Website.</p>
 
-<h2>Fallback Support</h2>
+<h2>Fallback-Unterstützung</h2>
 
-<p>When you <em>don&#39;t</em> have translated or multilingual content, Jekyll will still build with the content you do have. When you <em>do</em> have translated or multilingual content, Jekyll will build using that content. Simple as that.</p>
+<p>Wenn Sie <em>nicht</em> haben übersetzt oder mehrsprachige Inhalte, Jekyll wird immer noch mit dem Inhalt zu bauen Sie zu tun haben. Wenn Sie <em>müssen</em> haben übersetzt oder mehrsprachigen Inhalten wird Jekyll bauen mit diesem Inhalt. So einfach ist das.</p>
 
-<p>Sitemaps stay consistent across all languages, and translated stays in the site it was built for.</p>
+<p>Sitemaps bleiben konsistent über alle Sprachen und übersetzt Aufenthalte in der Website es gebaut wurde.</p>
 
-<h2>Rich Content Translation</h2>
+<h2>Reichen Inhalt Übersetzung</h2>
 
-<p>Rich language content is normally hard to implement. Short strings or language dependent banners are typically hard for a Jekyll website to keep consistent.</p>
+<p>Reiche Sprache Inhalt ist in der Regel schwer zu implementieren. Kurze Strings oder sprachabhängige Banner sind in der Regel schwer für einen Jekyll Website konsistent zu halten.</p>
 
-<p><em>Except when it&#39;s this easy</em>. In your config.yml, just store your strings as:</p>
+<p><em>Außer, wenn es so einfach</em>. In Ihrem config.yml, nur die Saiten zu speichern, wie:</p>
 
 <figure class="highlight"><pre><code class="language-yaml" data-lang="yaml"><span class="s">hello</span><span class="pi">:</span>
   <span class="s">en</span><span class="pi">:</span> <span class="s">Hello!</span>
@@ -211,22 +211,22 @@
   <span class="s">fr</span><span class="pi">:</span> <span class="s">Bonjour!</span>
   <span class="s">de</span><span class="pi">:</span> <span class="s">Guten Tag!</span></code></pre></figure>
 
-<p>and in your liquid, just call:</p>
+<p>und in ihre liquid, einfach anrufen:</p>
 
 <figure class="highlight"><pre><code class="language-html" data-lang="html">{{ site.hello[site.active_lang]}}</code></pre></figure>
 
-<p>produces:
+<p>produziert:
 <p class="message">
-Hello!
+Hallo!
 </p></p>
 
-<h2>Fast, Asynchronous, Zero-Overhead Builds</h2>
+<h2>Schnell, Asynchron, baut Nullarbeit</h2>
 
-<p>Polyglot will build your multi-language website just as fast as it will build your default language website. Polyglot runs with a minimal overhead by <em>simultaneously</em> building all languages of your website as separate process. This means your website build time won&#39;t be a function of how many languages you need to support.</p>
+<p>Polyglot wird Ihre mehrsprachige Website genauso schnell zu bauen, wie es Ihre Standardsprache Website zu bauen. Polyglot läuft mit einem minimalen Overhead von <em>gleichzeitig</em> Gebäude alle Sprachen Ihrer Website als separaten Prozess. Das bedeutet, Ihre Website Build-Zeit wird nicht davon ab, wie viele Sprachen, die unterstützt werden müssen.</p>
 
 <h3>Download</h3>
 
-<p>Polyglot is available as a gem, or as a Jekyll plugin. It can be installed with:</p>
+<p>Polyglot ist als eines ruby gem oder als Jekyll Plugin. Es kann mit installiert werden:</p>
 
 <figure class="highlight"><pre><code class="language-bash" data-lang="bash">  gem install <span class="s1">'jekyll-polyglot'</span>
   </code></pre></figure>
@@ -235,7 +235,7 @@ Hello!
   
   <div class="post">
     <h1 class="post-title">
-      <a href="/2013/12/28/introducing-hyde/">
+      <a href="/de/2013/12/28/introducing-hyde/">
         Introducing Hyde
       </a>
     </h1>
@@ -249,7 +249,7 @@ Hello!
 <p>Poole is the Jekyll Butler, serving as an upstanding and effective foundation for Jekyll themes by <a href="https://twitter.com/mdo">@mdo</a>. Poole, and every theme built on it (like Hyde here) includes the following:</p>
 
 <ul>
-<li>Complete Jekyll setup included (layouts, config, <a href="/404">404</a>, <a href="/atom.xml">RSS feed</a>, posts, and <a href="/about">example page</a>)</li>
+<li>Complete Jekyll setup included (layouts, config, <a href="/de/404">404</a>, <a href="/de/atom.xml">RSS feed</a>, posts, and <a href="/de/about">example page</a>)</li>
 <li>Mobile friendly design and development</li>
 <li>Easily scalable text and component sizing with <code>rem</code> units in the CSS</li>
 <li>Support for a wide gamut of HTML elements</li>
@@ -283,7 +283,7 @@ Hello!
   
   <div class="post">
     <h1 class="post-title">
-      <a href="/2012/02/06/whats-jekyll/">
+      <a href="/de/2012/02/06/whats-jekyll/">
         What's Jekyll?
       </a>
     </h1>
